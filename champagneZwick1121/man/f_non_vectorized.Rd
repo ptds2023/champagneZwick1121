@@ -2,10 +2,7 @@
 % Please edit documentation in R/f_non_vectorized.R
 \name{f_non_vectorized}
 \alias{f_non_vectorized}
-\title{Non-Vectorized Champagne Glass Profile Function
-
-This function represents the profile of a Champagne glass as a piecewise function.
-It returns specific values based on the input `x`.}
+\title{Non-Vectorized Champagne Glass Profile Function}
 \usage{
 f_non_vectorized(x)
 }
@@ -17,9 +14,6 @@ A numeric value representing the height of the glass at position `x`.
 }
 \description{
 Non-Vectorized Champagne Glass Profile Function
-
-This function represents the profile of a Champagne glass as a piecewise function.
-It returns specific values based on the input `x`.
 }
 \author{
 Nicolas Zwickert

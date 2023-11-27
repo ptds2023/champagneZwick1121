@@ -1,7 +1,4 @@
 #' @title Volume Calculation for uniroot
-#'
-#' This function calculates the volume of the Champagne glass for a given upper limit and compares it with a target volume. It is used in conjunction with the uniroot function to find the specific upper limit where the volume matches the target.
-#'
 #' @param b Upper limit for the integration, which defines the level of Champagne in the glass.
 #' @return The difference between the calculated volume of the Champagne glass and the target volume.
 #' @examples

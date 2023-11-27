@@ -1,8 +1,4 @@
 #' @title Non-Vectorized Champagne Glass Profile Function
-#'
-#' This function represents the profile of a Champagne glass as a piecewise function.
-#' It returns specific values based on the input `x`.
-#'
 #' @param x A numeric value representing the position on the x-axis.
 #' @return A numeric value representing the height of the glass at position `x`.
 #' @example

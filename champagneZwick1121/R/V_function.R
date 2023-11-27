@@ -1,8 +1,4 @@
 #' @title Calculate and Compare Computed and Theoretical Volume of a Champagne Glass
-#'
-#' This function calculates the volume of a champagne glass using numerical integration
-#' and compares it with a theoretical value.
-#'
 #' @param f_vectorized_for_integration A vectorized function representing the profile of the champagne glass.
 #' @param lower The lower bound for the integral.
 #' @param upper The upper bound for the integral.

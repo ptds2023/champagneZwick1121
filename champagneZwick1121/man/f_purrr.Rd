@@ -2,9 +2,7 @@
 % Please edit documentation in R/f_purrr_f.R
 \name{f_purrr}
 \alias{f_purrr}
-\title{Vectorized Champagne Glass Profile Function using purrr
-
-This function vectorizes `f_non_vectorized` using the `map_dbl` function from the `purrr` package.}
+\title{Vectorized Champagne Glass Profile Function using purrr}
 \usage{
 f_purrr(x)
 }
@@ -16,8 +14,6 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 }
 \description{
 Vectorized Champagne Glass Profile Function using purrr
-
-This function vectorizes `f_non_vectorized` using the `map_dbl` function from the `purrr` package.
 }
 \examples{
 f_purrr(c(1, 5, 10))

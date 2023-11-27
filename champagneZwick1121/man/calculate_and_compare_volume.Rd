@@ -2,10 +2,7 @@
 % Please edit documentation in R/V_function.R
 \name{calculate_and_compare_volume}
 \alias{calculate_and_compare_volume}
-\title{Calculate and Compare Computed and Theoretical Volume of a Champagne Glass
-
-This function calculates the volume of a champagne glass using numerical integration
-and compares it with a theoretical value.}
+\title{Calculate and Compare Computed and Theoretical Volume of a Champagne Glass}
 \usage{
 calculate_and_compare_volume(
   f_vectorized_for_integration,
@@ -28,9 +25,6 @@ A list containing the computed volume (V_computed) and the theoretical volume (V
 }
 \description{
 Calculate and Compare Computed and Theoretical Volume of a Champagne Glass
-
-This function calculates the volume of a champagne glass using numerical integration
-and compares it with a theoretical value.
 }
 \examples{
 f_vectorized_for_integration <- function(x) { f_for_loop(x) ** 2 }

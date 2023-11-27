@@ -2,9 +2,7 @@
 % Please edit documentation in R/Optimize_volume_function.R
 \name{optimize_volume_function}
 \alias{optimize_volume_function}
-\title{Volume Optimization for a Given Range
-
-This function is used to find the optimal value of 'b' for which the absolute difference between the computed volume of the Champagne glass and a target volume is minimized. It is designed to be used with the 'optimize' function.}
+\title{Volume Optimization for a Given Range}
 \usage{
 optimize_volume_function(b)
 }
@@ -16,8 +14,6 @@ The absolute difference between the computed volume of the Champagne glass and t
 }
 \description{
 Volume Optimization for a Given Range
-
-This function is used to find the optimal value of 'b' for which the absolute difference between the computed volume of the Champagne glass and a target volume is minimized. It is designed to be used with the 'optimize' function.
 }
 \examples{
 V_function <- function(x) { f_vectorized_for_integration(x) ** 2 }

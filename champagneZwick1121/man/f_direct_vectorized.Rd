@@ -2,10 +2,7 @@
 % Please edit documentation in R/f_direct_vectorized.R
 \name{f_direct_vectorized}
 \alias{f_direct_vectorized}
-\title{Alternative Vectorized Champagne Glass Profile Function
-
-An alternative approach to vectorizing `f_non_vectorized` using `ifelse` statements.
-It handles vector inputs more directly and efficiently.}
+\title{Alternative Vectorized Champagne Glass Profile Function}
 \usage{
 f_direct_vectorized(x)
 }
@@ -17,9 +14,6 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 }
 \description{
 Alternative Vectorized Champagne Glass Profile Function
-
-An alternative approach to vectorizing `f_non_vectorized` using `ifelse` statements.
-It handles vector inputs more directly and efficiently.
 }
 \examples{
 f_direct_vectorized(c(1, 5, 10))

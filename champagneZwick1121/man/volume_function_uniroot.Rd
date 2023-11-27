@@ -2,9 +2,7 @@
 % Please edit documentation in R/volume_function_uniroot.R
 \name{volume_function_uniroot}
 \alias{volume_function_uniroot}
-\title{Volume Calculation for uniroot
-
-This function calculates the volume of the Champagne glass for a given upper limit and compares it with a target volume. It is used in conjunction with the uniroot function to find the specific upper limit where the volume matches the target.}
+\title{Volume Calculation for uniroot}
 \usage{
 volume_function_uniroot(b)
 }
@@ -16,8 +14,6 @@ The difference between the calculated volume of the Champagne glass and the targ
 }
 \description{
 Volume Calculation for uniroot
-
-This function calculates the volume of the Champagne glass for a given upper limit and compares it with a target volume. It is used in conjunction with the uniroot function to find the specific upper limit where the volume matches the target.
 }
 \examples{
 V_function <- function(x) { f_vectorized_for_integration(x) ** 2 }

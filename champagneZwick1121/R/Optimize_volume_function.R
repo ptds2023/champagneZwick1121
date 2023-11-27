@@ -1,7 +1,4 @@
 #' @title Volume Optimization for a Given Range
-#'
-#' This function is used to find the optimal value of 'b' for which the absolute difference between the computed volume of the Champagne glass and a target volume is minimized. It is designed to be used with the 'optimize' function.
-#'
 #' @param b The upper limit for the integration, which determines the level of Champagne in the glass.
 #' @return The absolute difference between the computed volume of the Champagne glass and the target volume.
 #' @examples

@@ -2,10 +2,7 @@
 % Please edit documentation in R/f_vectorized_f.R
 \name{f_vectorized}
 \alias{f_vectorized}
-\title{Directly Vectorized Champagne Glass Profile Function
-
-This function directly vectorizes `f_non_vectorized` using `Vectorize`.
-It allows `f_non_vectorized` to accept vector inputs directly.}
+\title{Directly Vectorized Champagne Glass Profile Function}
 \usage{
 f_vectorized(x)
 }
@@ -17,9 +14,6 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 }
 \description{
 Directly Vectorized Champagne Glass Profile Function
-
-This function directly vectorizes `f_non_vectorized` using `Vectorize`.
-It allows `f_non_vectorized` to accept vector inputs directly.
 }
 \examples{
 f_vectorized(c(1, 5, 10))

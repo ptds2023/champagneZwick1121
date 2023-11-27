@@ -2,9 +2,7 @@
 % Please edit documentation in R/vectorized_for_integration.R
 \name{f_vectorized_for_integration}
 \alias{f_vectorized_for_integration}
-\title{Vectorized Integration for Champagne Glass Profile
-
-This function applies the `f_for_loop` function to each element of a numeric vector `x`, preparing it for integration. The function is particularly useful for numerical integration tasks where the profile of the Champagne glass needs to be integrated over a range of x-values.}
+\title{Vectorized Integration for Champagne Glass Profile}
 \usage{
 f_vectorized_for_integration(x)
 }
@@ -16,8 +14,6 @@ A numeric vector with the champagne glass profile values for each x-coordinate, 
 }
 \description{
 Vectorized Integration for Champagne Glass Profile
-
-This function applies the `f_for_loop` function to each element of a numeric vector `x`, preparing it for integration. The function is particularly useful for numerical integration tasks where the profile of the Champagne glass needs to be integrated over a range of x-values.
 }
 \examples{
 # Assuming f_for_loop is defined

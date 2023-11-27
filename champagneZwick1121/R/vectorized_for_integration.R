@@ -1,7 +1,4 @@
 #' @title Vectorized Integration for Champagne Glass Profile
-#'
-#' This function applies the `f_for_loop` function to each element of a numeric vector `x`, preparing it for integration. The function is particularly useful for numerical integration tasks where the profile of the Champagne glass needs to be integrated over a range of x-values.
-#'
 #' @param x A numeric vector representing x-coordinates for which the champagne glass profile is calculated.
 #' @return A numeric vector with the champagne glass profile values for each x-coordinate, suitable for integration.
 #' @examples

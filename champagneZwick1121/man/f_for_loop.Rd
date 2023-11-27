@@ -2,10 +2,7 @@
 % Please edit documentation in R/f_for_loop.R
 \name{f_for_loop}
 \alias{f_for_loop}
-\title{Vectorized Champagne Glass Profile Function using For Loop
-
-This function vectorizes `f_non_vectorized` using a for loop.
-It applies `f_non_vectorized` to each element of a numeric vector.}
+\title{Vectorized Champagne Glass Profile Function using For Loop}
 \usage{
 f_for_loop(x)
 }
@@ -17,9 +14,6 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 }
 \description{
 Vectorized Champagne Glass Profile Function using For Loop
-
-This function vectorizes `f_non_vectorized` using a for loop.
-It applies `f_non_vectorized` to each element of a numeric vector.
 }
 \author{
 Nicolas Zwickert

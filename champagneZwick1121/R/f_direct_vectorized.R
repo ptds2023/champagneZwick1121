@@ -1,8 +1,4 @@
 #' @title Alternative Vectorized Champagne Glass Profile Function
-#'
-#' An alternative approach to vectorizing `f_non_vectorized` using `ifelse` statements.
-#' It handles vector inputs more directly and efficiently.
-#'
 #' @param x A numeric vector.
 #' @return A numeric vector with the result of applying `f_non_vectorized` to each element of `x`.
 #' @examples
