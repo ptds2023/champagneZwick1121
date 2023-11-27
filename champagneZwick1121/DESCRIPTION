@@ -1,11 +1,21 @@
 Package: champagneZwick1121
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Champagne Glass Volume Calculation and Party Simulation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Nicolas Zwickert
+Maintainer: Nicolas Zwickert <nicolas.zwickert@unil.ch>
+Description: Provides functions to calculate the volume of a champagne glass using numerical integration and to simulate champagne consumption at a party. 
+Includes various methods of vectorizing functions.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports:
+    dplyr,
+    ggplot2,
+    knitr,
+    kableExtra,
+    emoji,
+    shiny,
+    microbenchmark,
+    purrr,
+    testthat
