@@ -2,18 +2,21 @@
 % Please edit documentation in R/f_non_vectorized.R
 \name{f_non_vectorized}
 \alias{f_non_vectorized}
-\title{Non-Vectorized Champagne Glass Profile Function}
+\title{Non-Vectorized Champagne Glass Profile}
 \usage{
 f_non_vectorized(x)
 }
 \arguments{
-\item{x}{A numeric value representing the position on the x-axis.}
+\item{x}{Numeric value, the x-coordinate.}
 }
 \value{
-A numeric value representing the height of the glass at position `x`.
+Numeric value, the height of the glass at the given x-coordinate.
 }
 \description{
-Non-Vectorized Champagne Glass Profile Function
+Non-Vectorized Champagne Glass Profile
+}
+\examples{
+f_non_vectorized(5)
 }
 \author{
 Nicolas Zwickert

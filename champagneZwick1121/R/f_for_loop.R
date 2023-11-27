@@ -1,7 +1,7 @@
-#' @title Vectorized Champagne Glass Profile Function using For Loop
-#' @param x A numeric vector.
-#' @return A numeric vector with the result of applying `f_non_vectorized` to each element of `x`.
-#' @example
+#' @title Vectorized Champagne Glass Profile - For Loop
+#' @param x Numeric vector of x-coordinates.
+#' @return Numeric vector of glass heights at the given x-coordinates.
+#' @examples
 #' f_for_loop(c(1, 5, 10))
 #' @export
 #' @author Nicolas Zwickert

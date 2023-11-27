@@ -2,18 +2,21 @@
 % Please edit documentation in R/f_for_loop.R
 \name{f_for_loop}
 \alias{f_for_loop}
-\title{Vectorized Champagne Glass Profile Function using For Loop}
+\title{Vectorized Champagne Glass Profile - For Loop}
 \usage{
 f_for_loop(x)
 }
 \arguments{
-\item{x}{A numeric vector.}
+\item{x}{Numeric vector of x-coordinates.}
 }
 \value{
-A numeric vector with the result of applying `f_non_vectorized` to each element of `x`.
+Numeric vector of glass heights at the given x-coordinates.
 }
 \description{
-Vectorized Champagne Glass Profile Function using For Loop
+Vectorized Champagne Glass Profile - For Loop
+}
+\examples{
+f_for_loop(c(1, 5, 10))
 }
 \author{
 Nicolas Zwickert
