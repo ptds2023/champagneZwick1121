@@ -1,0 +1,28 @@
+name: pkgdown
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  pkgdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install pkgdown and dependencies
+        run: |
+          install.packages("pkgdown")
+          remotes::install_deps(dependencies = TRUE)
+      - name: Build pkgdown site
+        run: |
+          pkgdown::build_site()
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs
