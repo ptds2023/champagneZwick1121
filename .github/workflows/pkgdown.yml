@@ -16,7 +16,7 @@ jobs:
     - name: Set up R
       uses: r-lib/actions/setup-r@v1
       with:
-        r-version: '4.x'  # Choose the R version you need
+        r-version: '4.2.3'  # Choose the R version you need
 
     - name: Install dependencies
       run: Rscript -e "install.packages('pkgdown')"
