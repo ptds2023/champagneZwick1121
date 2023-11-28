@@ -16,7 +16,7 @@ jobs:
     - name: Set up R
       uses: r-lib/actions/setup-r@v1
       with:
-        r-version: '4.2.3'  # Choose the R version you need
+        r-version: '4.2.3'
 
     - name: Install dependencies
       run: Rscript -e "install.packages('pkgdown')"
@@ -28,5 +28,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs # This should match your pkgdown output directory
+        publish_dir: docs 
 
