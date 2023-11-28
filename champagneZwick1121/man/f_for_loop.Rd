@@ -16,7 +16,7 @@ Numeric vector of glass heights at the given x-coordinates.
 Vectorized Champagne Glass Profile - For Loop
 }
 \examples{
-f_for_loop(c(1, 5, 10))
+f_for_loop(10)
 }
 \author{
 Nicolas Zwickert

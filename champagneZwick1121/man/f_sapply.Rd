@@ -16,7 +16,7 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 Vectorized Champagne Glass Profile Function using sapply
 }
 \examples{
-f_sapply(c(1, 5, 10))
+f_sapply(10)
 }
 \author{
 Nicolas Zwickert

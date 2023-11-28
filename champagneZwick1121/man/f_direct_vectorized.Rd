@@ -16,7 +16,7 @@ A numeric vector with the result of applying `f_non_vectorized` to each element 
 Alternative Vectorized Champagne Glass Profile Function
 }
 \examples{
-f_direct_vectorized(c(1, 5, 10))
+f_direct_vectorized(10)
 }
 \author{
 Nicolas Zwickert

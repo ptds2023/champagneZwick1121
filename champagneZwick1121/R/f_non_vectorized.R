@@ -2,7 +2,7 @@
 #' @param x Numeric value, the x-coordinate.
 #' @return Numeric value, the height of the glass at the given x-coordinate.
 #' @examples
-#' f_non_vectorized(5)
+#' f_non_vectorized(16)
 #' @export
 #' @author Nicolas Zwickert
 f_non_vectorized <- function(x) {

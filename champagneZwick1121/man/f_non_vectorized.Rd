@@ -16,7 +16,7 @@ Numeric value, the height of the glass at the given x-coordinate.
 Non-Vectorized Champagne Glass Profile
 }
 \examples{
-f_non_vectorized(5)
+f_non_vectorized(16)
 }
 \author{
 Nicolas Zwickert

@@ -4,6 +4,9 @@
 #' # Example assuming f_for_loop and necessary functions are defined
 #' party_simulation <- simulate_party()
 #' print(party_simulation)
+#' @importFrom stats integrate
+#' @importFrom stats rnorm
+#' @importFrom stats rpois
 #' @export
 #' @author Nicolas Zwickert
 simulate_party <- function() {
@@ -18,7 +21,7 @@ simulate_party <- function() {
   b <- rnorm(G, mean = 11.15, sd = 0.52)
   b <- pmax(b, a)  # Ensure b > a
   V_function <- function(x) { f_for_loop(x) ** 2 }
-  volume_per_glass <- sapply(b, function(b) integrate(V_function, lower = a, upper = b)$value * pi / 1000)  # in liters
+  volume_per_glass <- sapply(b, function(b) integrate(V_function, lower = a, upper = b)$value * pi / 1000)
 
   # Total liters served
   total_liters <- sum(volume_per_glass * D)

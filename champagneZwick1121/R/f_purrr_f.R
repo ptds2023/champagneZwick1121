@@ -2,7 +2,8 @@
 #' @param x A numeric vector.
 #' @return A numeric vector with the result of applying `f_non_vectorized` to each element of `x`.
 #' @examples
-#' f_purrr(c(1, 5, 10))
+#' f_purrr(10)
+#' @import purrr
 #' @export
 #' @author Nicolas Zwickert
 f_purrr <- function(x) {

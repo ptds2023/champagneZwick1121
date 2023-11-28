@@ -4,10 +4,12 @@
 \alias{optimize_volume_function}
 \title{Volume Optimization for a Given Range}
 \usage{
-optimize_volume_function(b)
+optimize_volume_function(b, target_volume)
 }
 \arguments{
 \item{b}{The upper limit for the integration, which determines the level of Champagne in the glass.}
+
+\item{target_volume}{A numeric value specifying the target volume for calculations.}
 }
 \value{
 The absolute difference between the computed volume of the Champagne glass and the target volume.
@@ -16,10 +18,7 @@ The absolute difference between the computed volume of the Champagne glass and t
 Volume Optimization for a Given Range
 }
 \examples{
-V_function <- function(x) { f_vectorized_for_integration(x) ** 2 }
-target_volume <- 200  # Target volume in cubic centimeters
-b_optimize <- optimize(optimize_volume_function, c(10, 25))$minimum
-print(b_optimize)
+optimize_volume_function(15,200)
 }
 \author{
 Nicolas Zwickert
