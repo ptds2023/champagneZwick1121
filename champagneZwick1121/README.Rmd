@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/ptds2023/champagneZwick1121/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ptds2023/champagneZwick1121/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/ptds2023/champagneZwick1121/branch/main/graph/badge.svg)](https://app.codecov.io/gh/ptds2023/champagneZwick1121?branch=main)
 <!-- badges: end -->
 
 The goal of champagneZwick1121 is to provide a comprehensive set of tools for analyzing and visualizing Champagne glass characteristics, including volume calculations and party planning simulations.
