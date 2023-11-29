@@ -1,8 +1,11 @@
-# Install and load pkgdown package
-if (!requireNamespace("pkgdown", quietly = TRUE)) {
-  install.packages("pkgdown")
-}
-library(pkgdown)
 
-# Build documentation and website
-pkgdown::build_site()
+library(pkgdown)
+library(usethis)
+
+use_tidy_github_actions()
+
+use_pkgdown_github_pages()
+
+gh::gh_whoami()
+
+edit_r_environ()
